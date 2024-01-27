@@ -51,12 +51,12 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("AmBotYT")
-                await self.one.join_chat("AM_YTSupport")
-                await self.one.join_chat("AbhiModszYT_Return")
-                await self.one.join_chat("AM_Unfban")
-                await self.one.join_chat("Logs_Gban")
-                await self.one.join_chat("About_AMBot")
+                await self.one.join_chat("The_F2F_Shayri")
+                await self.one.join_chat("THE_CUTE_BOY_OP")
+                await self.one.join_chat("The_F2F_Dpz")
+                await self.one.join_chat("NeoUpdatess")
+                await self.one.join_chat("The_F2F_Networks")
+                await self.one.join_chat("TheAryan_Abouts")
             except:
                 pass
             assistants.append(1)
@@ -76,12 +76,12 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("AmBotYT")
-                await self.two.join_chat("AM_YTSupport")
-                await self.two.join_chat("AbhiModszYT_Return")
-                await self.two.join_chat("AM_Unfban")
-                await self.two.join_chat("Logs_Gban")
-                await self.two.join_chat("About_AMBot")
+                await self.two.join_chat("The_F2F_Shayri")
+                await self.two.join_chat("THE_CUTE_BOY_OP")
+                await self.two.join_chat("The_F2F_Dpz")
+                await self.two.join_chat("NeoUpdatess")
+                await self.two.join_chat("The_F2F_Networks")
+                await self.two.join_chat("TheAryan_Abouts")
             except:
                 pass
             assistants.append(2)
@@ -102,11 +102,11 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("AmBotYT")
-                await self.three.join_chat("AM_YTSupport")
-                await self.three.join_chat("AbhiModszYT_Return")
-                await self.three.join_chat("AM_Unfban")
-                await self.three.join_chat("Logs_Gban")
-                await self.three.join_chat("About_AMBot")
+                await self.three.join_chat("THE_CUTE_BOY_OP")
+                await self.three.join_chat("The_F2F_Dpz")
+                await self.three.join_chat("NeoUpdatess")
+                await self.three.join_chat("The_F2F_Networks")
+                await self.three.join_chat("TheAryan_Abouts")
             except:
                 pass
             assistants.append(3)
@@ -126,12 +126,12 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("AmBotYT")
-                await self.four.join_chat("AM_YTSupport")
-                await self.four.join_chat("AbhiModszYT_Return")
-                await self.four.join_chat("AM_Unfban")
-                await self.four.join_chat("Logs_Gban")
-                await self.four.join_chat("About_AMBot")
+                await self.four.join_chat("The_F2F_Shayri")
+                await self.four.join_chat("THE_CUTE_BOY_OP")
+                await self.four.join_chat("The_F2F_Dpz")
+                await self.four.join_chat("NeoUpdatess")
+                await self.four.join_chat("The_F2F_Networks")
+                await self.four.join_chat("TheAryan_Abouts")
             except:
                 pass
             assistants.append(4)
@@ -151,12 +151,12 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("AmBotYT")
-                await self.five.join_chat("AM_YTSupport")
-                await self.five.join_chat("AbhiModszYT_Return")
-                await self.five.join_chat("AM_Unfban")
-                await self.five.join_chat("Logs_Gban")
-                await self.five.join_chat("About_AMBot")
+                await self.five.join_chat("The_F2F_Shayri")
+                await self.five.join_chat("THE_CUTE_BOY_OP")
+                await self.five.join_chat("The_F2F_Dpz")
+                await self.five.join_chat("NeoUpdatess")
+                await self.five.join_chat("The_F2F_Networks")
+                await self.five.join_chat("TheAryan_Abouts")
             except:
                 pass
             assistants.append(5)
