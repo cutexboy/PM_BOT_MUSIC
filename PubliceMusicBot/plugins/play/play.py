@@ -53,9 +53,15 @@ async def play_commnd(
     url,
     fplay,
 ):
-    mystic = await message.reply_text(
-        _["play_2"].format(channel) if channel else random.choice(AMBOT)
-    )
+    if channel:
+        response_text = _["play_2"].format(channel)
+    elif AMBOT:
+        response_text = random.choice(AMBOT)
+    else:
+        response_text = "Fallback message when both channel and AMBOT are empty."
+
+    mystic = await message.reply_text(response_text)
+    
     plist_id = None
     slider = None
     plist_type = None
